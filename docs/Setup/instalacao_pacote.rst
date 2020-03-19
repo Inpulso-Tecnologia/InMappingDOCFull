@@ -48,34 +48,42 @@ Efetuado login, clique em **Implantar para usuários**.
 Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote.
 
 
-Instalação do Pacote Gerenciado
+Implantação da Biblioteca
 -------------------------------
 
 
-O download do pacote para a sua organização deve ser realizado através do link abaixo:
-         
-        https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3k000001ytb0
-         
-O login na sua organização será requerido, e após a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
+Com o arquivo .Zip da biblioteca será necessário fazer o deploy via Workbentch, acessando o site a seguir:
+        
+        https://workbench.developerforce.com/login.php
 
-.. figure:: img/downloadPacote.png
+Após fazer o login vá até o canto superior direito em **Migration -> Deploy**, como demonstrado na figura a seguir:
+
+.. figure:: img/deploy.png
     :alt: Solidity logo
     :align: center
     
-    Seleção de instalação para todos os perfis
+    Acessando a seção para fazer o deploy
 
-Logo após a confirmação uma notificação aparecerá, sendo necessária a confirmação do seguinte item:
-   
-.. figure:: img/aprovacaoAcesso.png
+Agora escolha o .Zip da biblioteca e marque **Single Package**, como na figura a seguir:
+
+.. figure:: img/deployBiblioteca.png
     :alt: Solidity logo
     :align: center
     
-    Garantia de acesso
-    
-Depois da confirmação das opções anteriores, o download começará normalmente, demorando entre 1 a 3 minutos. Após a confirmação do encerramento do download a apliacação já estará visível para o cliente através dos aplicativos do SalesForce.
+    Configurando o deploy
 
-.. figure:: img/painelAplicacao.png
+Na tela a seguir clique em **Deploy**.
+
+.. figure:: img/deploy2.png
     :alt: Solidity logo
     :align: center
     
-    Painel de aplicações
+    Confirmando o deploy
+
+Nesse momento será iniciado o deploy, caso ocorra tudo certo, sem nenhum problema, ficará parecido como a figura a seguir:
+
+.. figure:: img/deployFinalizado.png
+    :alt: Solidity logo
+    :align: center
+    
+    Deploy finalizado

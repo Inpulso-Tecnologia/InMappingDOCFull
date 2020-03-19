@@ -1,7 +1,7 @@
-Biblioteca InMapping
+Biblioteca de Mapeamento
 ====================
 
-Bem vindo a documentação da biblioteca salesforce **InMapping**. Neste documento será possível verificar todas as funcionalidades e suas configurações, além da importação da própria biblioteca.
+Bem vindo a documentação da biblioteca salesforce **Mapeamento**. Neste documento será possível verificar todas as funcionalidades e suas configurações, além da importação da própria biblioteca.
 
 **Configuração**
 
@@ -41,10 +41,3 @@ reclamações, interações da reclamação e consumidor.
     Funcional/interacao_reclamacao
     Funcional/relacao_objetos
     Funcional/fila
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    :caption: Desinstalação
-
-    Desinstalacao/desinstalacao
