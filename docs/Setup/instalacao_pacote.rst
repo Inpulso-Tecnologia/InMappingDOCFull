@@ -87,3 +87,172 @@ Nesse momento será iniciado o deploy, caso ocorra tudo certo, sem nenhum proble
     :align: center
     
     Deploy finalizado
+
+
+Configuração pós importação
+-------------------------------
+
+
+Após a importação do pacote será necessário configurar os perfis 
+que terão acesso aos aplicativos da biblioteca, na biblioteca 
+temos dois aplicativos um para o lightning e outro para o
+classic.
+
+Para acessa-los será necessário ir até configuração, como na figura a seguir: 
+
+.. figure:: img/configuracao.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando **Configurações** da organização.
+
+A seguir digite na barra de busca rápida **Gerente de aplicativo** e clique nele, como na figura a seguir:
+
+.. figure:: img/gerenteAplicativo.png
+    :alt: Solidity logo
+    :align: center
+    
+    Barra de pesquisa das configurações.
+
+Nele teremos os dois aplicativos citados anteriormente, como na figura a seguir:
+
+.. figure:: img/aplicativosBiblioteca.png
+    :alt: Solidity logo
+    :align: center
+    
+    Aplicativos da **Biblioteca de Mapeamento**.
+
+Edite o aplicativo da sua escolha (caso sua organização seja em lightning de preferença utilize o lightning, mas pode habilitar o acesso para ambos aplicativos), agora na tela de edição vá até a aba lateral chamada **Perfis de usuário** e selecione os perfis que terão acesso a esse aplicativo, como demonstrado na figura a seguir:
+
+.. figure:: img/perfisAplicativo.png
+    :alt: Solidity logo
+    :align: center
+    
+    Perfis que terão acesso ao aplicativo.
+
+Após selecionar os perfis para o aplicativo, aperte em **Salvar**.
+
+
+**Habilidando as guias personalizadas**
+
+
+Agora será necessário habilitar as guias personalizadas para os 
+úsuarios que utilizarão o aplicativo.
+
+Para habilitar a guia será necessário ir até configuração, como na figura a seguir: 
+
+.. figure:: img/configuracao.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando **Configurações** da organização.
+
+A seguir digite na barra de busca rápida **Perfis** e clique nele, como na figura a seguir:
+
+.. figure:: img/perfis.png
+    :alt: Solidity logo
+    :align: center
+    
+    Barra de pesquisa das configurações.
+
+A seguir clique em **Editar** no perfil que utilizará o aplicativo e ative as guias personalizadas, como na figura a seguir:
+
+.. figure:: img/guiasAtivadas.png
+    :alt: Solidity logo
+    :align: center
+    
+    Ativando as guias personalizadas.
+
+.. Hint:: Caso mais do que um usuário utilize o aplicativo, terá que ativar as guias para esses usuários.
+
+
+**Habilidando os campos personalizados**
+
+
+Agora será necessário habilitar os campos personalizados 
+do objeto **Mapeamento** e no objeto **Campo do Mapeamento** 
+para os úsuarios que utilizarão o aplicativo.
+
+Para editar um campo um campo de mapeamento precisa ir até configuração, como na figura a seguir: 
+
+.. figure:: img/configuracao.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando **Configurações** da organização.
+
+Após vá na aba **Gerenciador de objetos** e clique no objeto **Mapeamento**, como na figura a seguir:
+
+.. figure:: img/mapeamento.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando o objeto personalizado **Mapeamento**.
+
+Após isso vá na aba **Campos e relacionamentos** e clique em cima do rótulo do campo, no caso da figura a seguir seria o campo **Descrição**:
+
+.. figure:: img/descricao.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando o campo personalizado **Descrição**.
+
+Agora clique no botão **Definir segurança no nível do campo**, como na figura a seguir:
+
+.. figure:: img/definirSeguranca.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Acessando nível de segurança do campo.
+
+Agora altere a visibilidade de acordo a sua necessidade e clique em **Salvar**, na figura a seguir é visível para todos:
+
+.. figure:: img/visibilidade.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Deixando o campo visível para todos.
+
+Será necessário fazer esse mesmo processo para os seguintes campos do objeto **Mapeamento** e **Campo do Mapeamento**
+    
+**Mapeamento**
+
+*   Descrição
+*   Objeto
+*   Origem
+*   Parent Id
+*   Permissão
+
+.. figure:: img/fieldsMapeamento.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Campos que precisam de premissão no objeto **Mapemaento**.
+
+**Campo do Mapeamento**
+
+*   Campo Index
+*   Campo Livre
+*   Destino
+*   Exemplo
+*   Mapeamento
+*   Origem
+*   Rótulo
+*   Somente leitura
+*   Tipo
+*   Valor
+
+.. figure:: img/fieldsCampoMapeamento.png
+    :alt: Solidity logo
+    :width: 500px
+    :align: center
+    
+    Campos que precisam de premissão no objeto **Campo do Mapemaento**.
