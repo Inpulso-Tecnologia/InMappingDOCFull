@@ -2,15 +2,15 @@ Classe MapEntity
 ================
 
 
-Inner Classe da classe :doc:`**InMapEngine** <Tecnico/map_engine>`.
+Inner Classe da classe :doc:`InMapEngine <Tecnico/map_engine>`.
 
 Assinatura do Construtor
     public MapEntity(Id pMapeamentoId, List<Map<String, Object>> pListMapFields)
 
 Especificação
   	Possui as váriaveis:
- 	*	:doc:`**mapeamentoId** <Tecnico/map_entity/mapeamentoId>`
- 	*	:doc:`**listMapFields** <Tecnico/map_entity/listMapFields>`
+ 	*	:doc:`mapeamentoId <Tecnico/map_entity#mapeamentoId>`
+ 	*	:doc:`listMapFields <Tecnico/map_entity#listMapFields>`
 
 Exemplo
 

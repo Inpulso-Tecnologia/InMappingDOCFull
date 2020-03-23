@@ -2,21 +2,21 @@ Classe EngineOptions
 ====================
 
 
-Inner Classe da classe :doc:`**InMapEngine** <Tecnico/map_engine>`.
+Inner Classe da classe :doc:`InMapEngine <Tecnico/map_engine>`.
 
 Assinatura do Construtor
     public EngineOptions()
 
 Especificação
   	Possui as váriaveis:
- 	*	:doc:`**origem** <Tecnico/engine_options/origem>`
- 	*	:doc:`**parentId** <Tecnico/engine_options/parentId>`
- 	*	:doc:`**setMapeamentoId** <Tecnico/engine_options/setMapeamentoId>`
+ 	*	:doc:`origem <Tecnico/engine_options#origem>`
+ 	*	:doc:`parentId <Tecnico/engine_options#parentId>`
+ 	*	:doc:`setMapeamentoId <Tecnico/engine_options#setMapeamentoId>`
  	E os métodos:
- 	*	:doc:`**fillOrigemId** <Tecnico/engine_options/fillOrigemId>`
- 	*	:doc:`**fillSetMapeamento** <Tecnico/engine_options/fillSetMapeamento>`
- 	*	:doc:`**getSoqlMapeamento** <Tecnico/engine_options/getSoqlMapeamento>`
- 	*	:doc:`**getMountFilter** <Tecnico/engine_options/getMountFilter>`
+ 	*	:doc:`fillOrigemId <Tecnico/engine_options#fillOrigemId>`
+ 	*	:doc:`fillSetMapeamento <Tecnico/engine_options#fillSetMapeamento>`
+ 	*	:doc:`getSoqlMapeamento <Tecnico/engine_options#getSoqlMapeamento>`
+ 	*	:doc:`getMountFilter <Tecnico/engine_options#getMountFilter>`
 
 Exemplo
 
