@@ -7,8 +7,10 @@ Inner Classe da classe :doc:`InMapEngine </Tecnico/map_engine>`.
 Assinatura do Construtor
     public MapEntity(Id pMapeamentoId, List<Map<String, Object>> pListMapFields)
 
-Especificação
-  	Possui as váriaveis: :ref:`mapeamentoId </Tecnico/map_entity:mapeamentoId>` e :ref:`listMapFields </Tecnico/map_entity:listMapFields>`
+Possui as váriaveis: 
+
+*   :ref:`mapeamentoId <Tecnico/map_entity:mapeamentoId>`
+*   :ref:`listMapFields <Tecnico/map_entity:listMapFields>`
 
 Exemplo
 
