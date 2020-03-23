@@ -1,5 +1,5 @@
 Biblioteca de Mapeamento
-====================
+========================
 
 Bem vindo a documentação da **Biblioteca de Mapeamento**. Neste documento será possível verificar todas as funcionalidades e suas configurações, além da importação da própria biblioteca.
 
@@ -17,6 +17,15 @@ Nessa parte de exemplo de uso, será demonstrado uma forma de usar
 as funcionalidades da **Biblioteca de Mapeamento**.
 
 *  :doc:`Exemplo de uso <Exemplo/exemplo_uso>`
+
+**Técnico**
+
+Nessa parte técnica, será apresentado as classes e as inner classes 
+que são o núcleo da **Biblioteca de Mapeamento**.
+
+*  :doc:`Classe InMapEngine <Tecnico/exemplo_uso>`
+*  :doc:`Inner Classe EngineOptions <Tecnico/engine_options>`
+*  :doc:`Inner Classe MapEntity <Tecnico/map_entity>`
    
 .. toctree::
    :maxdepth: 2
@@ -31,3 +40,12 @@ as funcionalidades da **Biblioteca de Mapeamento**.
     :caption: Exemplo de uso
 
     Exemplo/exemplo_uso
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: Técnico
+
+    Tecnico/map_engine
+    Tecnico/engine_options
+    Tecnico/map_entity
