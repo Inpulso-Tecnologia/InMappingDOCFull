@@ -9,8 +9,8 @@ Assinatura do Construtor
 
 Especificação
   	Possui as váriaveis:
-   	*	  `mapeamentoId <Tecnico/map_entity#mapeamentoId>`
-   	*	  `listMapFields <Tecnico/map_entity#listMapFields>`
+   	  :doc:`mapeamentoId </Tecnico/map_entity#mapeamentoId>`
+   	  :doc:`listMapFields </Tecnico/map_entity#listMapFields>`
 
 Exemplo
 
