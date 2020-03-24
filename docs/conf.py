@@ -55,7 +55,7 @@ source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 master_doc = 'index'
 
 # General information about the project.
-project = u'Biblioteca Mapeamento'
+project = u'Biblioteca de Mapeamento'
 copyright = '2020, Inpulso Tecnologia'
 # copyright = u'JrTech Soluções em Tecnologia'
 author = u'Patrick Albino'
