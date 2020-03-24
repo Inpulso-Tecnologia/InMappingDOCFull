@@ -149,7 +149,7 @@ latex_elements = {
 
 
 latex_documents = [
-    (master_doc, 'docs.tex', u'Biblioteca InMapping',
+    (master_doc, 'docs.tex', u'Biblioteca de Mapeamento',
      u'Documentação', 'manual'),
 ]
 
