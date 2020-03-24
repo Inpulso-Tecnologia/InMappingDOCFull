@@ -16,7 +16,12 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+     List<Map<String, Object>> oTeste = new List<Map<String, Object>>();
+      Map<String, Object> mapCampos = new Map<String, Object>();
+      mapCampos.put('nome do campo', 'valor do campo');
+      oTeste.add(mapCampos);
+
+      InMapEngine.MapEntity mapEntity = new InMapEngine.MapEntity('id do mapeamento', oTeste);
 
 
 mapeamentoId

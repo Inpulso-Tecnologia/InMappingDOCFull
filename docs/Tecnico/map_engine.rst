@@ -23,7 +23,14 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      List<Map<String, Object>> oTeste = new List<Map<String, Object>>();
+      Map<String, Object> mapCampos = new Map<String, Object>();
+      mapCampos.put('nome do campo', 'valor do campo');
+      oTeste.add(mapCampos);
+
+      InMapEngine.MapEntity mapEntity = new InMapEngine.MapEntity('id do mapeamento', oTeste);
+
+      InMapEngine.doIt(mapEntity);
 
 
 doIt
@@ -39,7 +46,15 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      List<Map<String, Object>> oTeste = new List<Map<String, Object>>();
+      Map<String, Object> mapCampos = new Map<String, Object>();
+      mapCampos.put('nome do campo', 'valor do campo');
+      oTeste.add(mapCampos);
+      
+      List<InMapEngine.MapEntity> lstMapEntity = new List<InMapEngine.MapEntity>();
+      lstMapEntity.add(new InMapEngine.MapEntity('id do mapeamento', oTeste));
+
+      InMapEngine.doIt(lstMapEntity);
 
 
 doItByOptions
@@ -53,9 +68,16 @@ Valor retornado
 
 Exemplo
 
-   .. code-block:: apex
+	.. code-block:: apex
 
-      **A fazer**
+	    InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+
+	    List<Map<String, Object>> oTeste = new List<Map<String, Object>>();
+	    Map<String, Object> mapCampos = new Map<String, Object>();
+	    mapCampos.put('rótulo do campo', 'valor do campo');
+	    oTeste.add(mapCampos);
+	      
+	    InMapEngine.doItByOptions(engineOpt, oTeste);
 
 
 doItByOptions
@@ -71,7 +93,15 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+   	  InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+
+      List<SObject> listObj = new List<SObject>();
+	  Task task = new Task(
+	      CallObject = 'teste'
+	  );
+	  listObj.add(task);
+
+	  InMapEngine.doItByOptions(engineOpt, listObj);
 
 
 doItByOptions
@@ -87,7 +117,11 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+
+      String sJson = '{"nome do campo" : "valor do campo"}';
+
+      InMapEngine.doItByOptions(engineOpt, sJson);
 
 
 doItByOptions
@@ -103,7 +137,15 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+
+      String sJson = '{"nome do campo" : "valor do campo"}';
+
+      List<String> lstJson = new List<String>();
+
+      lstJson.add(sJson);
+
+      InMapEngine.doItByOptions(engineOpt, lstJson);
 
 
 

@@ -7,22 +7,22 @@ Inner Classe da classe :doc:`InMapEngine </Tecnico/map_engine>`.
 Assinatura do Construtor
     public EngineOptions()
 
-Especificação
-  	Possui as váriaveis:
- 	*	:doc:`origem <Tecnico/engine_options#origem>`
- 	*	:doc:`parentId <Tecnico/engine_options#parentId>`
- 	*	:doc:`setMapeamentoId <Tecnico/engine_options#setMapeamentoId>`
- 	E os métodos:
- 	*	:doc:`fillOrigemId <Tecnico/engine_options#fillOrigemId>`
- 	*	:doc:`fillSetMapeamento <Tecnico/engine_options#fillSetMapeamento>`
- 	*	:doc:`getSoqlMapeamento <Tecnico/engine_options#getSoqlMapeamento>`
- 	*	:doc:`getMountFilter <Tecnico/engine_options#getMountFilter>`
+Possui as váriaveis: 
+
+* :ref:`origem <Tecnico/engine_options:origem>`
+* :ref:`parentId <Tecnico/engine_options:parentId>`
+* :ref:`setMapeamentoId <Tecnico/engine_options:setMapeamentoId>`
+
+E os métodos:
+
+* :ref:`fillOrigemId <Tecnico/engine_options:fillOrigemId>`
+* :ref:`fillSetMapeamento <Tecnico/engine_options:fillSetMapeamento>`
 
 Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
 
 
 origem
@@ -65,7 +65,8 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
+      InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+      engineOpt.fillOrigemId();
 
 
 fillSetMapeamento
@@ -78,36 +79,5 @@ Exemplo
 
    .. code-block:: apex
 
-      **A fazer**
-
-
-getSoqlMapeamento
------------------
-
-Assinatura
-    public String getSoqlMapeamento(String pOrigemId, String pParentId)
-
-Valor retornado
-  	Retorna uma **String**.
-
-Exemplo
-
-   .. code-block:: apex
-
-      **A fazer**
-
-
-getMountFilter
---------------
-
-Assinatura
-    public String getMountFilter(List<String> pListValue)
-
-Valor retornado
-  	Retorna uma **String**.
-
-Exemplo
-
-   .. code-block:: apex
-
-      **A fazer**
+      InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+      engineOpt.fillSetMapeamento();
