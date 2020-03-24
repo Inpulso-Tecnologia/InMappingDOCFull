@@ -93,15 +93,15 @@ Exemplo
 
    .. code-block:: apex
 
-   	  InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
+   		InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
 
-      List<SObject> listObj = new List<SObject>();
-	  Task task = new Task(
-	      CallObject = 'teste'
-	  );
-	  listObj.add(task);
+		List<SObject> listObj = new List<SObject>();
+		Task task = new Task(
+		  CallObject = 'teste'
+		);
+		listObj.add(task);
 
-	  InMapEngine.doItByOptions(engineOpt, listObj);
+		InMapEngine.doItByOptions(engineOpt, listObj);
 
 
 doItByOptions
