@@ -6,13 +6,13 @@ utilizar a biblioteca, nesse exemplo será criado um Contato a partir
 da inserção de um Lead, utilizando a nossa bilbioteca que vem com a 
 biblioteca, para poder utilizar-la de forma corretamente, antes de 
 importar o pacote será necessário que a organização tenha um 
-:doc:`domínio <FAQ/dominio>` registrado.
+:doc:`domínio </FAQ/dominio>` registrado.
 
 
 **Criação dos metadado**
 
 
-Crie um registro no metadado :doc:`Origem <Tecnico/Metadados/origem>`, conforme a figura a seguir:
+Crie um registro no metadado :doc:`Origem </Tecnico/Metadados/origem>`, conforme a figura a seguir:
 
 .. figure:: img/leadToContact.png
     :alt: Solidity logo
@@ -20,7 +20,7 @@ Crie um registro no metadado :doc:`Origem <Tecnico/Metadados/origem>`, conforme 
     
     Criando um registro de **Origem** chamado LeadToContact.
 
-Crie os registros no metadado :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` 
+Crie os registros no metadado :doc:`Campo de Origem </Tecnico/Metadados/campoOrigem>` 
 para a conversão do **Lead** para um **Contato**, nesse exemplo teremos dois campos que 
 serão passados para o **Contato**:
 
@@ -62,7 +62,7 @@ Agora será criado o mapeamento:
     
     Aba **Gerenciador de Mapeamentos** da **Biblioteca de Mapeamento**.
 
-.. Hint:: As etapas 1 e 2, podem ser feitas implantando os nossos componentes lightning LWC :doc:`inMapMappingList <Tecnico/LightningWebComponents/inMapMappingList>` ou :doc:`inMapMappingBuilder <Tecnico/LightningWebComponents/inMapMappingBuilder>`, nesse caso não é necessário instalar o domínio.
+.. Hint:: As etapas 1 e 2, podem ser feitas implantando os nossos componentes lightning LWC :doc:`inMapMappingList </Tecnico/LightningWebComponents/inMapMappingList>` ou :doc:`inMapMappingBuilder </Tecnico/LightningWebComponents/inMapMappingBuilder>`, nesse caso não é necessário instalar o domínio.
 
 3- Agora selecione **LeadToContact**:
 
@@ -87,10 +87,10 @@ Como demonstrado na figura a seguir:
     
     Configurando o destino do mapeamento.
 
-A terceira e última etapa será a parte de fazer o mapeamento dos :doc:`Campos de Origem <Tecnico/Metadados/campoOrigem>` para os campos do destino,
+A terceira e última etapa será a parte de fazer o mapeamento dos :doc:`Campos de Origem </Tecnico/Metadados/campoOrigem>` para os campos do destino,
 
-1- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploCompany** será convertido para o campo do Contato **Descrição do contato**
-2- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploName** será convertido para o campo do Contato **Sobrenome**
+1- O :doc:`Campo de Origem </Tecnico/Metadados/campoOrigem>` **ExemploCompany** será convertido para o campo do Contato **Descrição do contato**
+2- O :doc:`Campo de Origem </Tecnico/Metadados/campoOrigem>` **ExemploName** será convertido para o campo do Contato **Sobrenome**
 
 como podemos ver na figura a seguir:
 
@@ -101,7 +101,7 @@ como podemos ver na figura a seguir:
     Mapenando os campos da origem para os campos do destino.
 
 
-Após finalizar a será criado um registro no objeto :doc:`Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>` e os devidos registro dos :doc:`Campos de Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`.
+Após finalizar a será criado um registro no objeto :doc:`Mapeamento </Tecnico/ObjetosPersonalizados/mapeamento>` e os devidos registro dos :doc:`Campos de Mapeamento </Tecnico/ObjetosPersonalizados/campoMapeamento>`.
 
 
 **Criação do trigger**

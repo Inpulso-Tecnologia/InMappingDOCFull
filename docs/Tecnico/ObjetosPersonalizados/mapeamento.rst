@@ -7,7 +7,7 @@ O objeto personalizado **Mapeamento** é utilizado para a biblioteca fazer o "*d
 .. Tip:: 
 
     +-----------------+----------------------+----------------------------+
-	| Rótulo do Campo | Nome da API do campo | Tipo                       |
+	| Rotulo do Campo | Nome da API do campo | Tipo                       |
 	+=================+======================+============================+
 	| Descrição       | Descricao__c         | Área de texto longo(32768) |
 	+-----------------+----------------------+----------------------------+

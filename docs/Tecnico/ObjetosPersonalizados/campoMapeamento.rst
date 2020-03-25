@@ -7,7 +7,7 @@ O objeto personalizado **Campo do Mapeamento** é criado em conjunto ao objeto :
 .. Tip:: 
 
     +-----------------+----------------------+--------------------------------+
-	| Rótulo do Campo | Nome da API do campo | Tipo                           |
+	| Rotulo do Campo | Nome da API do campo | Tipo                           |
 	+=================+======================+================================+
 	| Campo Index     | CampoIndex__c        | Caixa de seleção               |
 	+-----------------+----------------------+--------------------------------+
