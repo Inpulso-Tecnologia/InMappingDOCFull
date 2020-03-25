@@ -12,7 +12,7 @@ importar o pacote será necessário que a organização tenha um
 **Criação dos metadado**
 
 
-Crie um registro no metadado **:doc:`Origem <Tecnico/Metadados/origem>`**, conforme a figura a seguir:
+Crie um registro no metadado :doc:`Origem <Tecnico/Metadados/origem>`, conforme a figura a seguir:
 
 .. figure:: img/leadToContact.png
     :alt: Solidity logo
@@ -20,7 +20,7 @@ Crie um registro no metadado **:doc:`Origem <Tecnico/Metadados/origem>`**, confo
     
     Criando um registro de **Origem** chamado LeadToContact.
 
-Crie os registros no metadado **:doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>`** 
+Crie os registros no metadado :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` 
 para a conversão do **Lead** para um **Contato**, nesse exemplo teremos dois campos que 
 serão passados para o **Contato**:
 
@@ -87,7 +87,7 @@ Como demonstrado na figura a seguir:
     
     Configurando o destino do mapeamento.
 
-A terceira e última etapa será a parte de fazer o mapeamento dos **Campos da Origem** para os campos do destino,
+A terceira e última etapa será a parte de fazer o mapeamento dos :doc:`Campos de Origem <Tecnico/Metadados/campoOrigem>` para os campos do destino,
 
 1- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploCompany** será convertido para o campo do Contato **Descrição do contato**
 2- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploName** será convertido para o campo do Contato **Sobrenome**
@@ -101,7 +101,7 @@ como podemos ver na figura a seguir:
     Mapenando os campos da origem para os campos do destino.
 
 
-Após finalizar a será criado um registro no objeto **:doc:`Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>`** e os devidos registro dos **:doc:`Campos de Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`**.
+Após finalizar a será criado um registro no objeto :doc:`Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>` e os devidos registro dos :doc:`Campos de Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`.
 
 
 **Criação do trigger**

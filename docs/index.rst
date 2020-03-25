@@ -32,8 +32,8 @@ as classes e as inner classes que são o núcleo da **Biblioteca de Mapeamento**
 *  :doc:`Componente inMapMappingBuilder <Tecnico/LightningWebComponents/inMapMappingBuilder>`
 *  :doc:`Metadado Origem <Tecnico/Metadados/origem>`
 *  :doc:`Metadado Campo da Origem <Tecnico/Metadados/campoOrigem>`
-*  :doc:`Objeto Personalizado Mapeamento <Tecnico/ObjetosPersonalidados/mapeamento>`
-*  :doc:`Objeto Personalizado Campo do Mapeamento <Tecnico/ObjetosPersonalidados/campoMapeamento>`
+*  :doc:`Objeto Personalizado Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>`
+*  :doc:`Objeto Personalizado Campo do Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`
 
 **FAQ**
 
@@ -68,8 +68,8 @@ que possa ter sobre a biblioteca.
     Tecnico/LightningWebComponents/inMapMappingBuilder
     Tecnico/Metadados/origem
     Tecnico/Metadados/campoOrigem
-    Tecnico/ObjetosPersonalidados/mapeamento
-    Tecnico/ObjetosPersonalidados/campoMapeamento
+    Tecnico/ObjetosPersonalizados/mapeamento
+    Tecnico/ObjetosPersonalizados/campoMapeamento
 
 .. toctree::
     :maxdepth: 2
