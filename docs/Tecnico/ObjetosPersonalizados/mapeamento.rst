@@ -20,7 +20,3 @@ O objeto personalizado **Mapeamento** é utilizado para a biblioteca fazer o "*d
 +-----------------+----------------------+----------------------------+
 | Permissão       | Permissao__c         | Lista de opções            |
 +-----------------+----------------------+----------------------------+
-
-.. Tip:: 
-
-    
