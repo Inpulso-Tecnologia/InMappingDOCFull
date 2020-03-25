@@ -90,9 +90,10 @@ Como demonstrado na figura a seguir:
 A terceira e última etapa será a parte de fazer o mapeamento dos :doc:`Campos de Origem </Tecnico/Metadados/campoOrigem>` para os campos do destino,
 
 1- O :doc:`Campo de Origem </Tecnico/Metadados/campoOrigem>` **ExemploCompany** será convertido para o campo do Contato **Descrição do contato**
+
 2- O :doc:`Campo de Origem </Tecnico/Metadados/campoOrigem>` **ExemploName** será convertido para o campo do Contato **Sobrenome**
 
-como podemos ver na figura a seguir:
+Como podemos ver na figura a seguir:
 
 .. figure:: img/step3.png
     :alt: Solidity logo
