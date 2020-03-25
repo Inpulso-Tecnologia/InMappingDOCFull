@@ -25,9 +25,7 @@ as funcionalidades da **Biblioteca de Mapeamento**.
 Nessa parte, será apresentado os objetos personalizados, os metadados,
 as classes e as inner classes que são o núcleo da **Biblioteca de Mapeamento**.
 
-*  :doc:`Classe InMapEngine <Tecnico/Classes/map_engine>`
-*  :doc:`Inner Classe EngineOptions <Tecnico/Classes/engine_options>`
-*  :doc:`Inner Classe MapEntity <Tecnico/Classes/map_entity>`
+*  :doc:`Classes<Tecnico/indexClasses>`
 *  :doc:`Componente inMapMappingList <Tecnico/LightningWebComponents/inMapMappingList>`
 *  :doc:`Componente inMapMappingBuilder <Tecnico/LightningWebComponents/inMapMappingBuilder>`
 *  :doc:`Metadado Origem <Tecnico/Metadados/origem>`
@@ -35,10 +33,9 @@ as classes e as inner classes que são o núcleo da **Biblioteca de Mapeamento**
 *  :doc:`Objeto Personalizado Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>`
 *  :doc:`Objeto Personalizado Campo do Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`
 
-**FAQ**
+**Guias**
 
-Nessa parte, será apresentado respostas para algumas dúvidas 
-que possa ter sobre a biblioteca.
+Nessa parte, será apresentado respostas para alguns guias úteis.
 
 *  :doc:`Como registrar um domínio <FAQ/dominio>`
    
@@ -61,9 +58,7 @@ que possa ter sobre a biblioteca.
     :hidden:
     :caption: Referências
 
-    Tecnico/Classes/map_engine
-    Tecnico/Classes/engine_options
-    Tecnico/Classes/map_entity
+    Tecnico/indexClasses
     Tecnico/LightningWebComponents/inMapMappingList
     Tecnico/LightningWebComponents/inMapMappingBuilder
     Tecnico/Metadados/origem
