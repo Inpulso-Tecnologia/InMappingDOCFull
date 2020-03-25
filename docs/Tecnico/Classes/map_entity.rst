@@ -2,15 +2,15 @@ Classe MapEntity
 ================
 
 
-Inner Classe da classe :doc:`InMapEngine </Tecnico/map_engine>`.
+Inner Classe da classe :doc:`InMapEngine </Tecnico/Classes/map_engine>`.
 
 Assinatura do Construtor
     public MapEntity(Id pMapeamentoId, List<Map<String, Object>> pListMapFields)
 
 Possui as váriaveis: 
 
-* :ref:`mapeamentoId <Tecnico/map_entity:mapeamentoid>`
-* :ref:`listMapFields <Tecnico/map_entity:listmapfields>`
+* :ref:`mapeamentoId <Tecnico/Classes/map_entity:mapeamentoid>`
+* :ref:`listMapFields <Tecnico/Classes/map_entity:listmapfields>`
 
 Exemplo
 

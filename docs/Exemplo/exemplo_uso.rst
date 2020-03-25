@@ -3,13 +3,16 @@ Exemplo de uso
 
 Após a importação do pacote, será demonstrado um exemplo de como pode 
 utilizar a biblioteca, nesse exemplo será criado um Contato a partir 
-da inserção de um Lead.
+da inserção de um Lead, utilizando a nossa bilbioteca que vem com a 
+biblioteca, para poder utilizar-la de forma corretamente, antes de 
+importar o pacote será necessário que a organização tenha um 
+:doc:`domínio <FAQ/dominio>` registrado.
 
 
 **Criação dos metadado**
 
 
-Crie um registro no metadado **Origem**, conforme a figura a seguir:
+Crie um registro no metadado **:doc:`Origem <Tecnico/Metadados/origem>`**, conforme a figura a seguir:
 
 .. figure:: img/leadToContact.png
     :alt: Solidity logo
@@ -17,13 +20,19 @@ Crie um registro no metadado **Origem**, conforme a figura a seguir:
     
     Criando um registro de **Origem** chamado LeadToContact.
 
-Crie os registros no **Campo de Origem** para a conversão do **Lead** para um **Contato**, nesse exemplo teremos dois campos que serão passados para o **Contato**, no caso o campo de **Sobrenome** e o campo **Companhia**, como nas figuras a seguir.
+Crie os registros no metadado **:doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>`** 
+para a conversão do **Lead** para um **Contato**, nesse exemplo teremos dois campos que 
+serão passados para o **Contato**:
+
+1- Campo **Sobrenome**:
 
 .. figure:: img/exemploLastName.png
     :alt: Solidity logo
     :align: center
     
     Criando um registro de **Campo de Origem** chamado ExemploLastName do tipo **Texto**.
+
+2- Campo **Companhia**:
 
 .. figure:: img/exemploCompany.png
     :alt: Solidity logo
@@ -35,7 +44,27 @@ Crie os registros no **Campo de Origem** para a conversão do **Lead** para um *
 **Criação do mapeamento**
 
 
-Agora será criado o mapeamento, vá até o aplicativo de **Biblioteca de Mapeamento**, após isso vá na aba de **Gerenciador de Mapeamentos** e clique em **Novo**, após isso selecione **LeadToContact**, como na figura a seguir:
+Agora será criado o mapeamento: 
+
+1- Vá até o aplicativo de **Biblioteca de Mapeamento**:
+
+.. figure:: img/biblioteca.png
+    :alt: Solidity logo
+    :align: center
+    
+    Selecionando o aplicativo **Biblioteca de Mapeamento**.
+
+2- Após isso vá na aba de **Gerenciador de Mapeamentos** e clique em **Novo**:
+
+.. figure:: img/gerenciadorMapeamentos.png
+    :alt: Solidity logo
+    :align: center
+    
+    Aba **Gerenciador de Mapeamentos** da **Biblioteca de Mapeamento**.
+
+.. Hint:: As etapas 1 e 2, podem ser feitas implantando os nossos componentes lightning LWC :doc:`inMapMappingList <Tecnico/LightningWebComponents/inMapMappingList>` ou :doc:`inMapMappingBuilder <Tecnico/LightningWebComponents/inMapMappingBuilder>`, nesse caso não é necessário instalar o domínio.
+
+3- Agora selecione **LeadToContact**:
 
 .. figure:: img/step1.png
     :alt: Solidity logo
@@ -58,7 +87,12 @@ Como demonstrado na figura a seguir:
     
     Configurando o destino do mapeamento.
 
-A terceira e última etapa será a parte de fazer o mapeamento dos **Campos da Origem** para os campos do destino, como na figura a seguir:
+A terceira e última etapa será a parte de fazer o mapeamento dos **Campos da Origem** para os campos do destino,
+
+1- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploCompany** será convertido para o campo do Contato **Descrição do contato**
+2- O :doc:`Campo de Origem <Tecnico/Metadados/campoOrigem>` **ExemploName** será convertido para o campo do Contato **Sobrenome**
+
+como podemos ver na figura a seguir:
 
 .. figure:: img/step3.png
     :alt: Solidity logo
@@ -67,10 +101,13 @@ A terceira e última etapa será a parte de fazer o mapeamento dos **Campos da O
     Mapenando os campos da origem para os campos do destino.
 
 
+Após finalizar a será criado um registro no objeto **:doc:`Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>`** e os devidos registro dos **:doc:`Campos de Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`**.
+
+
 **Criação do trigger**
 
 
-Após toda essas etapas, agora iremos criar um trigger de after insert para o objeto Lead, como desmonstrado a seguir:
+Após toda essas etapas, agora iremos criar um trigger de after insert para o objeto Lead, nesse momento será mostrado uma forma da converção dos dados utilizando a classe :doc:`InMapEngine </Tecnico/Classes/map_engine>` e suas *Inner Class* :doc:`EngineOptions </Tecnico/Classes/engine_options>` e :doc:`MapEntity </Tecnico/Classes/map_entity>`, como desmonstrado a seguir:
 
 .. code-block:: apex
 	:linenos:

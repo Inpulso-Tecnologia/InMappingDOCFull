@@ -2,21 +2,21 @@ Classe EngineOptions
 ====================
 
 
-Inner Classe da classe :doc:`InMapEngine </Tecnico/map_engine>`.
+Inner Classe da classe :doc:`InMapEngine </Tecnico/Classes/map_engine>`.
 
 Assinatura do Construtor
     public EngineOptions()
 
 Possui as váriaveis: 
 
-* :ref:`origem <Tecnico/engine_options:origem>`
-* :ref:`parentId <Tecnico/engine_options:parentId>`
-* :ref:`setMapeamentoId <Tecnico/engine_options:setMapeamentoId>`
+* :ref:`origem <Tecnico/Classes/engine_options:origem>`
+* :ref:`parentId <Tecnico/Classes/engine_options:parentId>`
+* :ref:`setMapeamentoId <Tecnico/Classes/engine_options:setMapeamentoId>`
 
 E os métodos:
 
-* :ref:`fillOrigemId <Tecnico/engine_options:fillOrigemId>`
-* :ref:`fillSetMapeamento <Tecnico/engine_options:fillSetMapeamento>`
+* :ref:`fillOrigemId <Tecnico/Classes/engine_options:fillOrigemId>`
+* :ref:`fillSetMapeamento <Tecnico/Classes/engine_options:fillSetMapeamento>`
 
 Exemplo
 

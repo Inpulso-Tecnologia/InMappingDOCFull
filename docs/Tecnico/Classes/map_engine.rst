@@ -5,8 +5,8 @@ Classe InMapEngine
 Classe responsável sobre o mapeamento da **Biblioteca de Mapeamento**. 
 Essa contém as seguintes Inner Class:
 
-* :doc:`EngineOptions </Tecnico/engine_options>`
-* :doc:`MapEntity </Tecnico/map_entity>`
+* :doc:`EngineOptions </Tecnico/Classes/engine_options>`
+* :doc:`MapEntity </Tecnico/Classes/map_entity>`
 
 E os métodos listado abaixo.
 
@@ -146,15 +146,3 @@ Exemplo
       lstJson.add(sJson);
 
       InMapEngine.doItByOptions(engineOpt, lstJson);
-
-
-
-
-
-
-
-
-
-
-
-
