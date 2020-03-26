@@ -5,7 +5,7 @@ Bem vindo a documentação da **Biblioteca de Mapeamento**.
 Neste documento será possível verificar todas as funcionalidades 
 e suas configurações, além da importação da própria biblioteca.
 
-**Configuração**
+**Configurações (Primeiros Passos)**
 
 Na etapa de configuração, será apontado os requisitos necessários e o 
 passo-a-passo para a aplicação da funcionalidade e 
@@ -13,7 +13,7 @@ sua configuração em uma nova organização.
 
 * :doc:`Configurando a Organização <Setup/instalacao_pacote>`
 
-**Começando**
+**Começando (Getting Started)**
 
 Nessa parte de exemplo de uso, será demonstrado uma forma de usar
 as funcionalidades da **Biblioteca de Mapeamento**.
@@ -25,13 +25,10 @@ as funcionalidades da **Biblioteca de Mapeamento**.
 Nessa parte, será apresentado os objetos personalizados, os metadados,
 as classes e as inner classes que são o núcleo da **Biblioteca de Mapeamento**.
 
-*  :doc:`Classes<Tecnico/indexClasses>`
-*  :doc:`Componente inMapMappingList <Tecnico/LightningWebComponents/inMapMappingList>`
-*  :doc:`Componente inMapMappingBuilder <Tecnico/LightningWebComponents/inMapMappingBuilder>`
-*  :doc:`Metadado Origem <Tecnico/Metadados/origem>`
-*  :doc:`Metadado Campo da Origem <Tecnico/Metadados/campoOrigem>`
-*  :doc:`Objeto Personalizado Mapeamento <Tecnico/ObjetosPersonalizados/mapeamento>`
-*  :doc:`Objeto Personalizado Campo do Mapeamento <Tecnico/ObjetosPersonalizados/campoMapeamento>`
+*  :doc:`Classes <Tecnico/indexClasses>`
+*  :doc:`Componentes Lightning <Tecnico/indexLWC>`
+*  :doc:`Metadados <Tecnico/indexMetadados>`
+*  :doc:`Objetos Personalizados <Tecnico/indexObjetos>`
 
 **Guias**
 
@@ -42,14 +39,14 @@ Nessa parte, será apresentado respostas para alguns guias úteis.
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Configuração
+   :caption: Configurações (Primeiros Passos)
    
    Setup/instalacao_pacote
 
 .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption: Começando
+    :caption: Começando (Getting Started)
 
     Exemplo/exemplo_uso
 
@@ -59,16 +56,13 @@ Nessa parte, será apresentado respostas para alguns guias úteis.
     :caption: Referências
 
     Tecnico/indexClasses
-    Tecnico/LightningWebComponents/inMapMappingList
-    Tecnico/LightningWebComponents/inMapMappingBuilder
-    Tecnico/Metadados/origem
-    Tecnico/Metadados/campoOrigem
-    Tecnico/ObjetosPersonalizados/mapeamento
-    Tecnico/ObjetosPersonalizados/campoMapeamento
+    Tecnico/indexLWC
+    Tecnico/indexMetadados
+    Tecnico/indexObjetos
 
 .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption: FAQ
+    :caption: Guias
 
     FAQ/dominio

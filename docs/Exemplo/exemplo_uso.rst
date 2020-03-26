@@ -1,5 +1,5 @@
-Exemplo de uso
-====================
+Começando (Getting Started)
+===========================
 
 Após a importação do pacote, será demonstrado um exemplo de como pode 
 utilizar a biblioteca, nesse exemplo será criado um Contato a partir 
