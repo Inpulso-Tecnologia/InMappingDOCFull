@@ -5,8 +5,8 @@ Criando sua Origem
 A primeira etapa para utilizarmos a biblioteca é ter uma 
 origem e seus campos criados, no exemplo a seguir criaremos 
 uma :doc:`Origem </Tecnico/Metadados/origem>`, baseada no objeto 
-**Lead** do Salesforce, além disso mapearemos os campos **Sobrenome**
- e o campo **Companhia**.
+**Lead** do Salesforce, além disso mapearemos os campos **Sobrenome** 
+e o campo **Companhia**.
 
 
 
