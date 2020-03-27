@@ -23,7 +23,7 @@ como criar um **Contato**, a aprtir da trigger de pós inserção de um
 	                Id,
 	                Name
 	            FROM 
-	                :doc:`Mapeamento__c </Tecnico/ObjetosPersonalizados/mapeamento>`
+	                Mapeamento__c
 	            WHERE
 	                Name = 'ConvertLead'
 	    ]; 
@@ -31,7 +31,7 @@ como criar um **Contato**, a aprtir da trigger de pós inserção de um
 	    
 	    
 	    // Criando o objeto EngineOptions e atribuindo o Id do mapeamento que utilizaremos
-	    :doc:`InMapEngine </Tecnico/Classes/map_engine>`.:doc:`EngineOptions </Tecnico/Classes/engine_options>` engineOpt = new :doc:`InMapEngine </Tecnico/Classes/map_engine>`.:doc:`EngineOptions </Tecnico/Classes/engine_options>`();
+	    InMapEngine.EngineOptions engineOpt = new InMapEngine.EngineOptions();
 	    engineOpt.setMapeamentoId = setIdMaps;
 	    
 	    
@@ -48,5 +48,8 @@ como criar um **Contato**, a aprtir da trigger de pós inserção de um
 	    
 	    
 	    // E por último iniciando a engrenagem de mapear os dados passados
-	    :doc:`InMapEngine </Tecnico/Classes/map_engine>`.doItByOptions(engineOpt, oLead);
+	    InMapEngine.doItByOptions(engineOpt, oLead);
 	}
+
+
+.. Hint:: Nessa trigger mostra como utilizar a classe :doc:`InMapEngine </Tecnico/Classes/map_engine>`, a inner class :doc:`EngineOptions </Tecnico/Classes/engine_options>` e o objeto personalizado :doc:`Mapeamento__c </Tecnico/ObjetosPersonalizados/mapeamento>`.
