@@ -9,6 +9,8 @@ e os registros de :doc:`Campo do Mapeamento </Tecnico/ObjetosPersonalizados/camp
 no exemplo a seguir utilizaremos a origem criada anteriormente :doc:`aqui </Exemplo/comecandoMetadados>`, 
 para criar um novo **Contato** a partir dos campos da origem de um objeto **Lead**.
 
+.. Hint:: As etapas 1 e 2, podem ser feitas implantando os nossos componentes lightning LWC :doc:`inMapMappingList </Tecnico/LightningWebComponents/inMapMappingList>` ou :doc:`inMapMappingBuilder </Tecnico/LightningWebComponents/inMapMappingBuilder>`, nesse caso não é necessário ter um :doc:`domínio </FAQ/dominio>` registrado, caso queira utilizar a aplicação e as guias da nossa blibioteca terá que ter um :doc:`domínio </FAQ/dominio>` para sua organização.
+
 
 Agora iniciaremos a criação do mapeamento: 
 
