@@ -30,8 +30,6 @@ Agora iniciaremos a criação do mapeamento:
     
     Aba **Gerenciador de Mapeamentos** da **Biblioteca de Mapeamento**.
 
-.. Hint:: As etapas 1 e 2, podem ser feitas implantando os nossos componentes lightning LWC :doc:`inMapMappingList </Tecnico/LightningWebComponents/inMapMappingList>` ou :doc:`inMapMappingBuilder </Tecnico/LightningWebComponents/inMapMappingBuilder>`, nesse caso não é necessário instalar o domínio.
-
 3- Agora selecione **LeadToContact**:
 
 .. figure:: img/step1.png
